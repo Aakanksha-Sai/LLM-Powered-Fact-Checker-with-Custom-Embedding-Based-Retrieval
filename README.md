@@ -1,4 +1,3 @@
-text
 # LLM-Powered Fact Checker with Custom Embedding-Based Retrieval
 
 A lightweight system to analyze short news posts or social media statements, extract key claims, and verify them against a vector database of verified facts using a Retrieval-Augmented Generation (RAG) pipeline.
