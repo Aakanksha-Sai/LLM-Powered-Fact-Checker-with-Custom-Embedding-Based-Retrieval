@@ -15,7 +15,7 @@ A lightweight system to analyze short news posts or social media statements, ext
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/llm-powered-fact-checker.git
+git clone https://github.com/Aakanksha-Sai/LLM-Powered-Fact-Checker-with-Custom-Embedding-Based-Retrieval.git
 cd llm-powered-fact-checker
 
 text
@@ -100,7 +100,7 @@ text
 The Indian government has announced free electricity to all farmers starting July 2025.
 
 text
-- **Output:** [`sample_output.json`](sample_output.json)
+- **Output:** [`fact_check_result.json`](fact_check_result.json)
 {
 "verdict": "Unverifiable",
 "evidence": [],
@@ -115,12 +115,3 @@ text
 - **Make sure your OpenAI API key is set correctly.**
 - **Ensure the spaCy model is downloaded.**
 
-## License
-
-MIT
-How to Add Sample Files
-Create sample_input.txt and paste the sample input.
-
-Create sample_output.json and paste the sample output.
-
-Commit both files to your repository.
