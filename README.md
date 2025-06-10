@@ -17,7 +17,7 @@ A lightweight system to analyze short news posts or social media statements, ext
 git clone https://github.com/Aakanksha-Sai/LLM-Powered-Fact-Checker-with-Custom-Embedding-Based-Retrieval.git
 cd llm-powered-fact-checker
 
-text
+
 
 ### 2. Install Dependencies
 
@@ -27,7 +27,7 @@ python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-text
+
 
 **Example `requirements.txt`:**
 streamlit
@@ -39,13 +39,13 @@ openai
 spacy
 python-dotenv
 
-text
+
 
 Download the spaCy model:
 
 python -m spacy download en_core_web_sm
 
-text
+
 
 ### 3. Set Up OpenAI API Key
 
@@ -53,19 +53,19 @@ Create a `.env` file in the project root:
 
 OPENAI_API_KEY=your_api_key_here
 
-text
+
 
 Or set it as an environment variable:
 
 export OPENAI_API_KEY=your_api_key_here
 
-text
+
 
 ### 4. Run the App
 
 streamlit run streamlit_app.py
 
-text
+
 
 ## Usage
 
@@ -79,7 +79,7 @@ text
 
 The Indian government has announced free electricity to all farmers starting July 2025.
 
-text
+
 
 ### Sample Output
 
@@ -89,7 +89,7 @@ text
 "reasoning": "No semantically similar facts were retrieved to verify the claim."
 }
 
-text
+
 
 *(If evidence is found, the output will include the relevant facts and a different verdict.)*
 
@@ -98,7 +98,7 @@ text
 - **Input:** [`sample_input.txt`](sample_input.txt)
 The Indian government has announced free electricity to all farmers starting July 2025.
 
-text
+
 - **Output:** [`fact_check_result.json`](fact_check_result.json)
 {
 "verdict": "Unverifiable",
@@ -106,7 +106,7 @@ text
 "reasoning": "No semantically similar facts were retrieved to verify the claim."
 }
 
-text
+
 
 ## Troubleshooting
 
